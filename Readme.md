@@ -18,38 +18,3 @@ Grad-CAM熱度圖顯示模型
 
     如果 Replit 撐不住 TensorFlow：
     可以先把 requirements.txt 裡的 tensorflow 刪掉，CNN / Grad-CAM 暫時關掉，保留切割 + 預覽 + PDF 部分。
-
-    # Project Structure
-
-# Project Structure
-mnist_crispdm_full/
-│── app.py
-│── kaggle_downloader.py
-│── requirements.txt
-│── splitter/
-│   ├── __init__.py
-│   ├── file_utils.py
-│   ├── save_output.py
-│   ├── big_image_split.py
-│   ├── classify_single.py
-│   ├── stats.py
-│   └── preview_utils.py
-│── models/
-│   ├── __init__.py
-│   ├── cnn_digit_classifier.py
-│   └── gradcam_utils.py
-│── report/
-│   ├── __init__.py
-│   └── report_generator.py
-│── docs/
-│   ├── ReadMe.md
-│   ├── ToDo.md
-│   ├── AllDone.md
-│   ├── DevelopLog.md
-│   ├── ReplitDeploy.md
-│   └── ProjectStructure.md
-│── upload/           # 使用時自動建立 / 存放上傳檔案
-│── output/           # 使用時自動建立 / 切割與分類後影像
-│── reports/          # 使用時自動建立 / PDF 報告輸出
-
-
